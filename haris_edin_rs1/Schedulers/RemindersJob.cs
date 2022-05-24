@@ -24,7 +24,7 @@ namespace Faisal.Schedulers
                 var poruka = new MimeMessage();
                 poruka.From.Add(new MailboxAddress("Xloxlo Kompanija", "xloxlohe@gmail.com"));
                 poruka.To.Add(new MailboxAddress("edub", "gondzo.edin@gmail.com"));
-                poruka.Subject = "Obavjestenje o registraciji";
+                poruka.Subject = "Slanje mail-a svakih 5 minuta";
                 poruka.Body = new TextPart("plain")
                 {
                     Text = "Potrebno staviti slanje funkcionalnih stvari na mail. NPR broj korisnika kroz vrijeme, broj artikala isl"
